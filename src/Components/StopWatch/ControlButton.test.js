@@ -1,6 +1,6 @@
 import {shallow} from 'enzyme';
+import ControlButtons from './ControlButtons';
 import React from 'react';
-import ControlButtons from './ControlButtons'
 
 it('renders without crashing', () => {
   const wrapper = shallow(<ControlButtons />);

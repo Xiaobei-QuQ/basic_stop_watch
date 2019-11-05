@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import StopWatch from './Components/StopWatch'
+import StopWatch from './Components/StopWatch/StopWatch.js'
+import Counter from './Components/Counter/Counter.js'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <StopWatch />
+        <Counter />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

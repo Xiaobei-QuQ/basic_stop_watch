@@ -44,11 +44,11 @@ export default () => {
         milliseconds={currentTime - startTime}
       />
       <ControlButtons
-        //  activated={isStart}
-        //  onStart={onStart}
-        //  onPause={onPause}
-        //  onReset={onReset}
-        //  onSplit={onSplit}
+         activated={isStart}
+         onStart={onStart}
+         onPause={onPause}
+         onReset={onReset}
+         onSplit={onSplit}
       />
       <SplitTimes
         value={splits}
